@@ -1,0 +1,17 @@
+# Exportutdata är personuppgifter och ska aldrig checkas in.
+*.ndjson
+owners*.json
+arkiv/
+attachments/
+submission-attachments/
+embedded-attachments/
+canvas-exports/
+
+.env
+.env.*
+!.env.example
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
